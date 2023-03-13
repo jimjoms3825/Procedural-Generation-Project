@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c17e0cbd0ae5adf4d8cd7fe7e79186c9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - ballisticPrefab: {fileID: 2878787142565614153, guid: 7f501ddfed8439f4ca340511a153c7df, type: 3}
+  - energyPrefab: {fileID: 4098652495272921563, guid: a4667586b2e762542bb111cfec87c2d1, type: 3}
+  - explosive: {fileID: 8619434743096677019, guid: 24228177d3e34e147b900051093f1631, type: 3}
+  - rocketPrefab: {fileID: 5153370208857182220, guid: 11c2b3b9c2af031419ae0c121b0c309d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

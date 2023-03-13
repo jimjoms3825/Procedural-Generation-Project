@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ddb06303ca2b514b8d01b541bc5b54f, type: 3}
+  m_Name: Fields
+  m_EditorClassIdentifier: 
+  terrainType: 0
+  scale: 0.5
+  frequency: 0.006
+  octaves: 3
+  octaveScaleWane: 8
+  octaveFrequencyBoost: 4
+  terrainSmoothingFactor: 0.571
+  heightSplines:
+  - height: 0.3
+    scale: 0.1
+  - height: 0.5
+    scale: 0.15
+  - height: 0.8
+    scale: 0.18
+  - height: 0.9
+    scale: 0.2
+  - height: 1
+    scale: 0.21
+  textureData:
+  - textureIndex: 1
+    height: 0
+    fade: 20
+  - textureIndex: 0
+    height: 10
+    fade: 9.58
+  scatterTerrain:
+  - {fileID: 2346845853119494480, guid: 8aed7f9eeb0e1a44eb1341507486b6fe, type: 3}
+  - {fileID: 7380313542801758908, guid: 7e36964173761d24f90ba8a1f2be65f8, type: 3}
+  - {fileID: 2346845853119494480, guid: 21e0c6ae440fe434c83854de119c90aa, type: 3}

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ddb06303ca2b514b8d01b541bc5b54f, type: 3}
+  m_Name: Tester
+  m_EditorClassIdentifier: 
+  scale: 2
+  frequency: 0.003
+  octaves: 3
+  octaveScaleWane: 64
+  octaveFrequencyBoost: 32
+  terrainSmoothingFactor: 0.268
+  heightSplines:
+  - height: 0.8
+    scale: 0.1
+  - height: 0.82
+    scale: 0.11
+  - height: 0.85
+    scale: 0.12
+  - height: 0.87
+    scale: 0.122
+  - height: 0.9
+    scale: 0.12
+  - height: 1
+    scale: 0.15
+  textureData:
+  - textureIndex: 0
+    height: 0
+    fade: 20
+  - textureIndex: 1
+    height: 60
+    fade: 20
+  - textureIndex: 2
+    height: 120
+    fade: 20
+  - textureIndex: 3
+    height: 160
+    fade: 20
+  scatterTerrain: []
